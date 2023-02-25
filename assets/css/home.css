@@ -8,6 +8,7 @@ body {
   background-color: #1f1f1f;
   font-family: "Caviar";
   min-width: fit-content;
+  overflow-x: hidden;
 }
 
 .container-fluid {
@@ -218,3 +219,8 @@ section {
   height: 150px;
 }
 
+.instagram-video{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
