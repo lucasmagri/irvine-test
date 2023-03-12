@@ -181,24 +181,30 @@ section {
 
 .services{
   display: flex;
-  flex-direction: row;
   padding: 20px 10px 20px 40px;
-  align-items: center;
+  text-align: center;
 }
+
 
 .service-img img{
   margin-right: 20px;
   height: 50px;
   width: 50px;
-  flex: 1;
 }
 
 .service-title{
   color: white;
   font-size: larger;
   font-weight: bold;
-  flex: 1;
+  display: flex;
+  align-items: center;
 }
+
+.center{
+  padding: 10px;
+  margin: auto;
+}
+
 
 .info-anac{
   padding: 10px;
@@ -237,3 +243,4 @@ section {
   text-decoration: none;
   color: white;
 }
+
