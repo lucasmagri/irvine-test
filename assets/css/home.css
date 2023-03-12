@@ -90,13 +90,6 @@ section {
 
 }
 
-.section-item:hover {
-  background-color: #212529;
-  box-shadow: rgb(254, 136, 39) 0px 5px 15px;
-  transform: scale(1.05);
-  font-weight: bold;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -223,4 +216,24 @@ section {
   width: 100vw;
   display: flex;
   justify-content: center;
+}
+
+.contact-img{
+  width: 100px;
+}
+
+.contacts{
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.contact{
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+.contacts a, .contact a{
+  text-decoration: none;
+  color: white;
 }
